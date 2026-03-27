@@ -63,10 +63,10 @@ query mostRecentOrderByStatus($status: String!) {
 
 #### [nuxt-request-timeline](https://www.npmjs.com/package/nuxt-request-timeline)
 
-<img width="634" alt="Screenshot 2024-06-24 at 16 08 07" src="https://github.com/pmrotule/nuxt-request-timeline/assets/10983258/e04dad39-691f-42d5-9a5d-172e92729c4a">
-
 *A performance analyzer for Nuxt.js applications.*
 - **The Focus:** A specialized tool to visualize and analyze the sequence of requests during SSR or client-side navigation, helping developers identify and eliminate request waterfalls to optimize Core Web Vitals.
+
+<img width="634" alt="Screenshot 2024-06-24 at 16 08 07" src="https://github.com/pmrotule/nuxt-request-timeline/assets/10983258/e04dad39-691f-42d5-9a5d-172e92729c4a">
 
 ---
 
