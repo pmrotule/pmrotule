@@ -19,14 +19,47 @@ I am a technical leader focused on building high-performance engineering teams a
 
 I am the creator and maintainer of several tools designed to bridge the gap between complex data models and high-performance APIs.
 
+#### [graphql-lookahead](https://www.npmjs.com/package/graphql-lookahead)
+*An optimization utility to inspect GraphQL info objects.*
+- **The Goal:** I created this to solve the N+1 problem at its root by "looking ahead" at requested fields before executing database calls, significantly reducing latency in complex graphs.
+
+```ts
+if (lookahead({ info, until: ({ field }) => field === 'product' })) {
+  // include product in the query
+}
+```
+
 #### [graphql-gene](https://www.npmjs.com/package/graphql-gene)
 *A framework to automatically generate executable schemas from your ORM models.*
 - **The Problem:** Writing redundant resolvers and keeping TypeScript types in sync is a major bottleneck.
 - **The Solution:** I built `graphql-gene` to eliminate boilerplate, ensuring a single source of truth while maintaining strict type safety and high performance.
 
-#### [graphql-lookahead](https://www.npmjs.com/package/graphql-lookahead)
-*An optimization utility to inspect GraphQL info objects.*
-- **The Goal:** I created this to solve the N+1 problem at its root by "looking ahead" at requested fields before executing database calls, significantly reducing latency in complex graphs.
+```gql
+query mostRecentOrderByStatus($status: String!) {
+  order(where: { status: { eq: $status } }, order: [updatedAt_DESC]) {
+    id
+    status
+    updatedAt
+
+    items {
+      id
+      price
+      quantity
+      product {
+        name
+        color
+
+        group {
+          products {
+            id
+          }
+          categories
+        }
+      }
+    }
+  }
+}
+```
 
 #### [nuxt-request-timeline](https://www.npmjs.com/package/nuxt-request-timeline)
 
