@@ -11,7 +11,7 @@ I am a technical leader focused on building high-performance engineering teams a
 🚀 **Growth & Experience:**
 - **Scaling Expert:** Previously employee #80 at **On Running**, where I spent 7+ years helping the company scale from a local startup to a global powerhouse of 4,000+ employees.
 - **Entrepreneurship:** At Accès Impôt, we double our revenue annually with an 80% customer retention rate, focusing on lean operations and technical excellence.
-- **Focus:** I am dedicated to building high-availability systems that thrive in an **AI-transformed market** where speed and reliability are the primary differentiators.
+- **Focus:** I am dedicated to building secure, high-availability systems that thrive in an AI-transformed market. I believe that robust security and granular access control are the primary differentiators for reliable AI workflows.
 
 ---
 
