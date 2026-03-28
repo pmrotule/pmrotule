@@ -83,5 +83,3 @@ query mostRecentOrderByStatus($status: String!) {
 - 💼 [LinkedIn](https://www.linkedin.com/in/pierre-michel-brown-34b64827b/)
 - 📍 Zurich, Switzerland 🇨🇭
 - 💬 Ask me about: GraphQL optimization, scaling engineering teams, or navigating the AI shift in FinTech.
-
-*"Building for scale, coding for precision."*
