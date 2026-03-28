@@ -15,9 +15,9 @@ I am a technical leader focused on building high-performance engineering teams a
 
 ---
 
-### 🧬 Open Source Creator: GraphQL Specialization
+### 🧬 Open Source Creator: GraphQL & SSR Architecture
 
-I am the creator and maintainer of several tools designed to bridge the gap between complex data models and high-performance APIs.
+I build tools that bridge the gap between complex data models, server-side performance, and high-velocity engineering.
 
 #### [graphql-lookahead](https://www.npmjs.com/package/graphql-lookahead)
 *An optimization utility to inspect GraphQL info objects.*
